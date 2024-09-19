@@ -4,14 +4,14 @@ Welcome to the **Course Subscription Application**! This boilerplate application
 
 ## Table of Contents
 
-- [Introduction](#introduction)
-- [Prerequisites](#prerequisites)
-- [Getting Started](#getting-started)
-- [Application Overview](#application-overview)
-- [Navigating the Application](#navigating-the-application)
-- [Next Steps](#next-steps)
-- [Additional Resources](#additional-resources)
-- [Support](#support)
+- [Introduction](#markdown-header-introduction)
+- [Prerequisites](#markdown-header-prerequisites)
+- [Getting Started](#markdown-header-getting-started)
+- [Application Overview](#markdown-header-application-overview)
+- [Navigating the Application](#markdown-header-navigating-the-application)
+- [Next Steps](#markdown-header-next-steps)
+- [Additional Resources](#markdown-header-additional-resources)
+- [Support](#markdown-header-support)
 
 ## Introduction
 
