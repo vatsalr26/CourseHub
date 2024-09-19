@@ -34,45 +34,43 @@ Follow these steps to set up the application in your ServiceNow instance.
 
 ### 1. Set Up Your ServiceNow Developer Instance
 
-**Sign Up for a PDI**
-    - Visit [developer.servicenow.com](https://developer.servicenow.com/) and create an account.
-    - Request a Personal Developer Instance (PDI) and follow the instructions to activate it.
+ **Sign Up for a PDI**
 
-**Access Your PDI**
+- Visit [developer.servicenow.com](https://developer.servicenow.com/) and create an account.
+- Request a Personal Developer Instance (PDI) and follow the instructions to activate it.
 
-    - Once your instance is ready, log in using the credentials provided.
+ **Access Your PDI**
+
+- Once your instance is ready, log in using the credentials provided.
 
 ### 2. Clone the Application
 
-**Obtain the Repository URL**
+ **Obtain the Repository URL**
 
-    - Get the HTTPS URL of this repository hosting the application.
-    - Clone it to your local machine.
-    - Create a remote repository on your desired provider (e.g., GitHub, GitLab).
-    - Change the remote to point to your new repository, then push the code to it.
+- Get the HTTPS URL of this repository hosting the application.
+- Clone it to your local machine.
+- Create a remote repository on your desired provider (e.g., GitHub, GitLab).
+- Change the remote to point to your new repository, then push the code to it.
 
-**Create Git Credentials in ServiceNow**
+ **Create Git Credentials in ServiceNow**
 
-    - In your PDI, navigate to **Connections & Credentials > Credentials**.
-    - Click **New** and select **Credential**.
-    - Select **Basic Auth Credentials**.
-    - Fill in the following:
+- In your PDI, navigate to **Connections & Credentials > Credentials**.
+- Click **New** and select **Credential**.
+- Select **Basic Auth Credentials**.
+- Fill in the following:
 
-        - **Name**: *Git Source Control Credential*
-        - **Username**: *Your username*
-        - **Password**: *Your app password or account password*
-
-    - Save the credential.
+    - **Name**: *Git Source Control Credential*
+    - **Username**: *Your username*
+    - **Password**: *Your app password or account password*
+- Save the credential.
 
 **Import the Application via Studio**
-
-    - Use the application navigator to go to **All > Studio**.
-    - You can now import the application that you pushed to your remote repository. Follow the guide: [Import App into the PDI](https://developer.servicenow.com/dev.do#!/learn/learning-plans/quebec/new_to_servicenow/app_store_learnv2_devenvironment_quebec_importing_an_application_from_source_control).
+- Use the application navigator to go to **All > Studio**.
+- You can now import the application that you pushed to your remote repository. Follow the guide: [Import App into the PDI](https://developer.servicenow.com/dev.do#!/learn/learning-plans/quebec/new_to_servicenow/app_store_learnv2_devenvironment_quebec_importing_an_application_from_source_control).
 
 **Verify the Import**
-
-    - Once the import is complete, you should see the application files in Studio.
-    - Ensure there are no errors or conflicts.
+- Once the import is complete, you should see the application files in Studio.
+- Ensure there are no errors or conflicts.
 
 ## Application Overview
 
@@ -147,20 +145,20 @@ The following table outlines the access permissions for the roles **x_quo_course
 
 **Open the Application Navigator**:
 
-    - In your ServiceNow instance, use the filter navigator on the left. Click the **"All"** menu item on the top navigation bar to open the Application Navigator.
-    - You should find the **"CourseHub"** application menu.
-    - **Courses** and **Learners** are listed under **"CourseHub"**.
+- In your ServiceNow instance, use the filter navigator on the left. Click the **"All"** menu item on the top navigation bar to open the Application Navigator.
+- You should find the **"CourseHub"** application menu.
+- **Courses** and **Learners** are listed under **"CourseHub"**.
 
 **Explore the Tables, Lists, and Forms**
 
-    - Click on **"Course"** or **"Learners"**.
-    - Create a few relevant records using the standard UI.
+- Click on **"Course"** or **"Learners"**.
+- Create a few relevant records using the standard UI.
 
 **Default REST API**
 
-    - All the existing tables have REST API enabled.
-    - You can check the [Table API](https://developer.servicenow.com/dev.do#!/reference/api/quebec/rest/c_TableAPI).
-    - You can also explore using the REST API Explorer, which you can navigate to using the Application Navigator: **System Web Services > REST API Explorer**.
+- All the existing tables have REST API enabled.
+- You can check the [Table API](https://developer.servicenow.com/dev.do#!/reference/api/quebec/rest/c_TableAPI).
+- You can also explore using the REST API Explorer, which you can navigate to using the Application Navigator: **System Web Services > REST API Explorer**.
 
 ## Next Steps
 
