@@ -34,25 +34,24 @@ Follow these steps to set up the application in your ServiceNow instance.
 
 ### 1. Set Up Your ServiceNow Developer Instance
 
-1. **Sign Up for a PDI**
-
+**Sign Up for a PDI**
     - Visit [developer.servicenow.com](https://developer.servicenow.com/) and create an account.
     - Request a Personal Developer Instance (PDI) and follow the instructions to activate it.
 
-2. **Access Your PDI**
+**Access Your PDI**
 
     - Once your instance is ready, log in using the credentials provided.
 
 ### 2. Clone the Application
 
-1. **Obtain the Repository URL**
+**Obtain the Repository URL**
 
     - Get the HTTPS URL of this repository hosting the application.
     - Clone it to your local machine.
     - Create a remote repository on your desired provider (e.g., GitHub, GitLab).
     - Change the remote to point to your new repository, then push the code to it.
 
-2. **Create Git Credentials in ServiceNow**
+**Create Git Credentials in ServiceNow**
 
     - In your PDI, navigate to **Connections & Credentials > Credentials**.
     - Click **New** and select **Credential**.
@@ -65,12 +64,12 @@ Follow these steps to set up the application in your ServiceNow instance.
 
     - Save the credential.
 
-3. **Import the Application via Studio**
+**Import the Application via Studio**
 
     - Use the application navigator to go to **All > Studio**.
     - You can now import the application that you pushed to your remote repository. Follow the guide: [Import App into the PDI](https://developer.servicenow.com/dev.do#!/learn/learning-plans/quebec/new_to_servicenow/app_store_learnv2_devenvironment_quebec_importing_an_application_from_source_control).
 
-4. **Verify the Import**
+**Verify the Import**
 
     - Once the import is complete, you should see the application files in Studio.
     - Ensure there are no errors or conflicts.
@@ -89,7 +88,7 @@ The application consists of three main tables:
 
 All the tables come with default fields: `sys_id`, `created`, `created_by`, `updated`, `updated_by`.
 
-#### 1. Course Table
+#### Course Table
 
 - **Label**: Course
 - **Name**: `x_quo_coursehub_course`
@@ -101,7 +100,7 @@ All the tables come with default fields: `sys_id`, `created`, `created_by`, `upd
 - **Type** (`type`): Choice (Options: Online, Offline, Hybrid)
 - **Duration** (`duration`): Duration (Days Hours:Minutes:Seconds)
 
-#### 2. Learner Table
+#### Learner Table
 
 - **Label**: Learner
 - **Name**: `x_quo_coursehub_learner`
@@ -111,7 +110,7 @@ All the tables come with default fields: `sys_id`, `created`, `created_by`, `upd
 - **User Account** (`user_account`): Reference to `sys_user` (Mandatory)
 - **Admission Date** (`admission_date`): Date/Time
 
-#### 3. Course Subscription Table
+#### Course Subscription Table
 
 - **Label**: Course Subscription
 - **Name**: `x_quo_coursehub_course_subscription`
@@ -126,15 +125,6 @@ All the tables come with default fields: `sys_id`, `created`, `created_by`, `upd
 
 The following table outlines the access permissions for the roles **x_quo_coursehub.manager** and **x_quo_coursehub.user** across the application's tables.
 
-#### Roles
-
-- **x_quo_coursehub.manager**
-    - Full access (**Create**, **Read**, **Update**, **Delete**) to all tables.
-- **x_quo_coursehub.user**
-    - **Read** access to all tables.
-    - **Create** and **Update** access to **Learner** and **Course Subscription** tables.
-
-#### Access Permissions Table
 
 | **Table**                                           | **Permission** | **x_quo_coursehub.manager** | **x_quo_coursehub.user** |
 |-----------------------------------------------------|----------------|------------------------------|--------------------------|
@@ -155,18 +145,18 @@ The following table outlines the access permissions for the roles **x_quo_course
 
 ### Accessing the Application
 
-1. **Open the Application Navigator**:
+**Open the Application Navigator**:
 
     - In your ServiceNow instance, use the filter navigator on the left. Click the **"All"** menu item on the top navigation bar to open the Application Navigator.
     - You should find the **"CourseHub"** application menu.
     - **Courses** and **Learners** are listed under **"CourseHub"**.
 
-2. **Explore the Tables, Lists, and Forms**
+**Explore the Tables, Lists, and Forms**
 
     - Click on **"Course"** or **"Learners"**.
     - Create a few relevant records using the standard UI.
 
-3. **Default REST API**
+**Default REST API**
 
     - All the existing tables have REST API enabled.
     - You can check the [Table API](https://developer.servicenow.com/dev.do#!/reference/api/quebec/rest/c_TableAPI).
@@ -174,22 +164,17 @@ The following table outlines the access permissions for the roles **x_quo_course
 
 ## Next Steps
 
-Now that you have the application set up, you can start implementing the required features:
+Now that you have the application set up, you can start implementing the required features. You have two options for building the web front-end user interface (UI):
 
-- **Course List**
-    - Fetch and display a list of available courses.
-    - Show course details: **Title**, **Description**, **Type**, **Duration**.
-    - Implement subscription options:
-        - **Option 1**: Add a **"Subscribe"** button.
-        - **Option 2**: (Optional) Implement drag-and-drop subscription.
+**Develop UI within ServiceNow**: Utilize NOW platform built-in tools to create custom UIs directly inside your ServiceNow instance. This includes using tools like UI Builder or UI Pages to design and implement your interface.
 
-- **Subscription Feature**
-    - Create functionality to handle course subscriptions.
-    - Update the **Course Subscription** table when a learner subscribes.
+**Build UI externally**: Create the front end using any external web development frameworks or libraries of your choice, such as React, Angular, or Vue.js. You can then integrate your UI with the ServiceNow backend via REST APIs.
 
-- **My Courses**
-    - Display courses that the current learner is enrolled in.
-    - Provide an option to unsubscribe if desired.
+If you choose to develop the UI within ServiceNow, the following resources may be helpful:
+
+- [UI Builder](https://docs.servicenow.com/csh?topicname=ui-builder-overview.html&version=latest)
+- [UI Pages](https://docs.servicenow.com/csh?topicname=r_UIPages.html&version=latest)
+
 
 ## Additional Resources
 
