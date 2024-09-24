@@ -17,6 +17,8 @@ Welcome to the **Course Subscription Application**! This boilerplate application
 
 The Course Subscription Application allows learners to view available courses and subscribe to them. This boilerplate provides the essential components to help you implement features such as fetching course lists, subscribing to courses, and displaying subscribed courses.
 
+> The goal is to have workable simple version of application that involves ServiceNow in some way. We do not expect you to understand whole ServiceNow platform in couple of days. 
+
 ## Prerequisites
 
 Before you begin, ensure you have the following:
@@ -166,13 +168,14 @@ Now that you have the application set up, you can start implementing the require
 
 **Develop UI within ServiceNow**: Utilize NOW platform built-in tools to create custom UIs directly inside your ServiceNow instance. This includes using tools like UI Builder or UI Pages to design and implement your interface.
 
-**Build UI externally**: Create the front end using any external web development frameworks or libraries of your choice, such as React, Angular, or Vue.js. You can then integrate your UI with the ServiceNow backend via REST APIs.
+**Build UI externally**: Create the front end using any external web development frameworks or libraries of your choice, such as React, Angular, or Vue.js. You can then integrate your UI with the ServiceNow backend via REST APIs. You can explore about ServiceNow [REST API](https://docs.servicenow.com/csh?topicname=c_RESTAPI.html&version=latest). For simplicity, we recommend using Table API, as pointed above.
 
 If you choose to develop the UI within ServiceNow, the following resources may be helpful:
 
 - [UI Builder](https://docs.servicenow.com/csh?topicname=ui-builder-overview.html&version=latest)
 - [UI Pages](https://docs.servicenow.com/csh?topicname=r_UIPages.html&version=latest)
 
+> Follow the assignment instructions provided, focus on implementing features that you can.
 
 ## Additional Resources
 
@@ -182,6 +185,7 @@ If you choose to develop the UI within ServiceNow, the following resources may b
     - [Tables and Data Management](https://docs.servicenow.com/bundle/quebec-platform-administration/page/administer/table-administration/concept/c_TableAdministration.html)
     - [Pro-Code Development](https://docs.servicenow.com/bundle/quebec-application-development/page/build/applications/concept/building-pro-code-applications.html)
     - [REST API Reference](https://developer.servicenow.com/dev.do#!/reference/api/quebec/rest)
+    - [Import Application from Git rep](https://docs.servicenow.com/csh?topicname=t_ImportAppFromSourceControl.html&version=latest)
 
 ## Support
 
@@ -189,7 +193,6 @@ If you encounter any issues or have questions:
 
 - **Contact**: [Arjun Basnet]
 - **Email**: [ab@datacontentmanager.com]
-- **Issues**: [Bitbucket Repository Issues Page](https://bitbucket.org/qualdatrix/coursehub/issues)
 
 ---
 
