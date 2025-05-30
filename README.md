@@ -156,26 +156,22 @@ The following table outlines the access permissions for the roles **x_quo_course
 - Click on **"Course"** or **"Learners"**.
 - Create a few relevant records using the standard UI.
 
-**Default REST API**
 
-- All the existing tables have REST API enabled.
-- You can check the [Table API](https://developer.servicenow.com/dev.do#!/reference/api/quebec/rest/c_TableAPI).
-- You can also explore using the REST API Explorer, which you can navigate to using the Application Navigator: **System Web Services > REST API Explorer**.
+## CourseHub Experience
 
-## Next Steps
-
-Now that you have the application set up, you can start implementing the required features. You have two options for building the web front-end user interface (UI):
-
-**Develop UI within ServiceNow**: Utilize NOW platform built-in tools to create custom UIs directly inside your ServiceNow instance. This includes using tools like UI Builder or UI Pages to design and implement your interface.
-
-**Build UI externally**: Create the front end using any external web development frameworks or libraries of your choice, such as React, Angular, or Vue.js. You can then integrate your UI with the ServiceNow backend via REST APIs. You can explore about ServiceNow [REST API](https://docs.servicenow.com/csh?topicname=c_RESTAPI.html&version=latest). For simplicity, we recommend using Table API, as pointed above.
-
-If you choose to develop the UI within ServiceNow, the following resources may be helpful:
-
-- [UI Builder](https://docs.servicenow.com/csh?topicname=ui-builder-overview.html&version=latest)
-- [UI Pages](https://docs.servicenow.com/csh?topicname=r_UIPages.html&version=latest)
+Now that you have the application set up, you can start implementing the required features. You should use servicenow **[UI Builder (UIB)]**(https://www.servicenow.com/docs/csh?topicname=ui-builder-overview.html&version=latest) to build simple interface that works.
 
 > Follow the assignment instructions provided, focus on implementing features that you can.
+
+### Build UI Experience
+
+1. Using servicenow top navigation bar, Go to All > UI Builder
+2. Find and select existing Experience: Qdx Course Hub or Create new
+3. Start building using "Home" page or some other pages as per your design
+4. Modify and design the course hub as you wish using the building blocks available.
+
+> **Tips**: start by adding the Layout first, then build using the Components.
+
 
 ## Additional Resources
 
@@ -187,12 +183,6 @@ If you choose to develop the UI within ServiceNow, the following resources may b
     - [REST API Reference](https://developer.servicenow.com/dev.do#!/reference/api/quebec/rest)
     - [Import Application from Git rep](https://docs.servicenow.com/csh?topicname=t_ImportAppFromSourceControl.html&version=latest)
 
-## Support
-
-If you encounter any issues or have questions:
-
-- **Contact**: [Arjun Basnet]
-- **Email**: [ab@datacontentmanager.com]
 
 ---
 
