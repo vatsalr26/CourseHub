@@ -159,7 +159,7 @@ The following table outlines the access permissions for the roles **x_quo_course
 
 ## CourseHub Experience
 
-Now that you have the application set up, you can start implementing the required features. You should use servicenow **[UI Builder (UIB)]**(https://www.servicenow.com/docs/csh?topicname=ui-builder-overview.html&version=latest) to build simple interface that works.
+Now that you have the application set up, you can start implementing the required features. You should use servicenow [UI Builder (UIB)](https://www.servicenow.com/docs/csh?topicname=ui-builder-overview.html&version=latest) to build simple interface that works.
 
 > Follow the assignment instructions provided, focus on implementing features that you can.
 
@@ -173,16 +173,21 @@ Now that you have the application set up, you can start implementing the require
 > **Tips**: start by adding the Layout first, then build using the Components.
 
 ### Key Ingredients
+
 The servicenow UI Builder (UIB) is WYSIWYG "low code" tool, it designed to deliver UI experiences for speed and scale. The "pro code" user can built their own custom component using Next Experience UI Framework, but that is out-of-scope. Focus on following:
 
 #### Next Experience Components
-Navigate to component list portal (https://developer.servicenow.com/dev.do#!/reference/next-experience/components), on the side bar make sure to filter with "Yokohama" release and "Available in UIB". Explore the relevant component definition and find the configuration details for how to use within UI Builder.
+
+Navigate to readily available [components portal](https://developer.servicenow.com/dev.do#!/reference/next-experience/components), on the side bar make sure to filter with "Yokohama" release and "Available in UIB". Explore the relevant component definition and find the configuration details for how to use within UI Builder.
 
 #### Data Binding
-The data binding is crucial for the components to be dynamic, the data binding modal (https://www.servicenow.com/docs/csh?topicname=connect-data-components.html&version=latest) make it easy. You can find the information.
+
+The data binding is crucial for the components to be dynamic, the [data binding modal](https://www.servicenow.com/docs/csh?topicname=connect-data-components.html&version=latest) make it easy. You can find the information.
 
 #### Data Resources
-These building blocks are available under the "Data and Scripts", these are used to provide dynamic data to the components, find more information from (https://www.servicenow.com/docs/csh?topicname=data-resources.html&version=latest). We recommend to focus on data resources that is readily available:
+
+These building blocks are available under the "Data and Scripts", these are used to provide dynamic data to the components, find more information [here](https://www.servicenow.com/docs/csh?topicname=data-resources.html&version=latest). We recommend to focus on data resources that is readily available:
+
 * Create Record
 * Look up a single record
 * Look up multiple records
@@ -191,17 +196,22 @@ These building blocks are available under the "Data and Scripts", these are used
 * Delete Multiple Records
 
 #### Client State Parameters
-One way to think about UIB Client state parameters is state management solutions available for reactive JavaScript UI libraries available out there in wild, you can find more information from here (https://www.servicenow.com/docs/csh?topicname=client-state-parameters.html&version=latest)
+
+One way to think about UIB Client state parameters is state management solutions available for reactive JavaScript UI libraries available out there in wild, you can find more information from [here](https://www.servicenow.com/docs/csh?topicname=client-state-parameters.html&version=latest)
 
 #### Client Scripts
+
 It provides the scripting capabilities in UIB to customize interaction using JavaScript that connects client state through events, find the more information here (https://developer.servicenow.com/dev.do#!/learn/courses/yokohama/app_store_learnv2_uibuilder_yokohama_ui_builder/app_store_learnv2_uibuilder_yokohama_client_side_interactions_in_ui_builder/UCS_WhatAreClientScripts_yokohama).
 
 ### UIB API Reference
-* Api - UIB (https://www.servicenow.com/docs/csh?topicname=apiAPI.html&version=latest)
-* Helpers- UIB (https://www.servicenow.com/docs/csh?topicname=helpersAPI.html&version=latest)
+
+* [Api - UIB](https://www.servicenow.com/docs/csh?topicname=apiAPI.html&version=latest)
+* [Helpers- UIB](https://www.servicenow.com/docs/csh?topicname=helpersAPI.html&version=latest)
 
 ### Need Comprehensive Course
-If you need a learning course on UI Builder, and want to invest your time. The servicenow portal (developer.servicenow.com) have you covered. UIB course (https://developer.servicenow.com/dev.do#!/learn/courses/yokohama/app_store_learnv2_uibuilder_yokohama_ui_builder) covers following topics:
+
+If you need a learning course on UI Builder, and want to invest your time. The servicenow [developer portal](https://developer.servicenow.com) have you covered. UIB [learning course](https://developer.servicenow.com/dev.do#!/learn/courses/yokohama/app_store_learnv2_uibuilder_yokohama_ui_builder) covers following topics:
+
 * Pages in UIB
 * Events in UIB
 * Client-side Interactions in UIB
