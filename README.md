@@ -186,7 +186,7 @@ The data binding is crucial for the components to be dynamic, the [data binding 
 
 #### Data Resources
 
-These building blocks are available under the "Data and Scripts", these are used to provide dynamic data to the components, find more information [here](https://www.servicenow.com/docs/csh?topicname=data-resources.html&version=latest). We recommend to focus on data resources that is readily available:
+These building blocks are available under the "Data and Scripts", these are used to provide dynamic data to the components, find more information [here](https://www.servicenow.com/docs/csh?topicname=data-resources.html&version=latest). The data resources are sometime referred as Data Broker, one can create custom Data Broker for REST API, GraphQL, data Transform, and custom server-side script. We recommend to focus on data resources that is readily available:
 
 * Create Record
 * Look up a single record
@@ -206,7 +206,7 @@ It provides the scripting capabilities in UIB to customize interaction using Jav
 ### UIB API Reference
 
 * [Api - UIB](https://www.servicenow.com/docs/csh?topicname=apiAPI.html&version=latest)
-* [Helpers- UIB](https://www.servicenow.com/docs/csh?topicname=helpersAPI.html&version=latest)
+* [Helpers - UIB](https://www.servicenow.com/docs/csh?topicname=helpersAPI.html&version=latest)
 
 ### Need Comprehensive Course
 
@@ -226,6 +226,9 @@ If you need a learning course on UI Builder, and want to invest your time. The s
     - [Tables and Data Management](https://docs.servicenow.com/bundle/quebec-platform-administration/page/administer/table-administration/concept/c_TableAdministration.html)
     - [Pro-Code Development](https://docs.servicenow.com/bundle/quebec-application-development/page/build/applications/concept/building-pro-code-applications.html)
     - [REST API Reference](https://developer.servicenow.com/dev.do#!/reference/api/quebec/rest)
+    - [UIB: Component config and repeater](https://www.servicenow.com/docs/csh?topicname=configure-comp-and-repeaters.html&version=latest)
+    - [UIB: Glossary](https://www.servicenow.com/docs/csh?topicname=ui-builder-glossary.html&version=latest)
+    - [UIB: Config data resource](https://www.servicenow.com/docs/csh?topicname=add-data-resources.html&version=latest)
     - [Import Application from Git rep](https://docs.servicenow.com/csh?topicname=t_ImportAppFromSourceControl.html&version=latest)
 
 
