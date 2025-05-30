@@ -67,7 +67,7 @@ Follow these steps to set up the application in your ServiceNow instance.
 - Save the credential.
 
 **Import the Application via Studio**
-- Use the application navigator to go to **All > Studio**.
+- Use the application navigator to go to **All > Studio**. DO NOT USE "ServiceNow Studio", use System Application > Studio
 - You can now import the application that you pushed to your remote repository. Follow the guide: [Import App into the PDI](https://developer.servicenow.com/dev.do#!/learn/learning-plans/quebec/new_to_servicenow/app_store_learnv2_devenvironment_quebec_importing_an_application_from_source_control).
 
 **Verify the Import**
@@ -231,6 +231,16 @@ If you need a learning course on UI Builder, and want to invest your time. The s
     - [UIB: Config data resource](https://www.servicenow.com/docs/csh?topicname=add-data-resources.html&version=latest)
     - [Import Application from Git rep](https://docs.servicenow.com/csh?topicname=t_ImportAppFromSourceControl.html&version=latest)
 
+
+## Push Changes
+
+To commit and push your changes:
+
+1. Navigate to System Application > Studio in the application navigator
+2. Once in Studio, click on the Source Control menu in the top nav bar
+3. Select Commit Changes from the dropdown menu
+4. Enter a meaningful commit message describing your changes
+5. Select the artifact changes, and follow the steps in modal window.
 
 ---
 
