@@ -15,7 +15,7 @@ b. Description of Implemented Features
 Below is a breakdown of each feature and how it aligns with the assignment requirements:
 
 1. Home Page
-![image alt](https://github.com/vatsalr26/CourseHub/blob/main/Screenshots/Home%20page.png)
+
 Components: Header, text blocks, and three buttons
 
 Purpose: Serves as the main dashboard
@@ -62,6 +62,7 @@ Pulls data from the Course Subscription table
 c. Step-by-Step User Interaction
 Home Page
  Users land on the Home page, which has a welcome message and three buttons:
+![image alt](https://github.com/vatsalr26/CourseHub/blob/main/Screenshots/Home%20page.png)
 
 Course Master
 
@@ -75,7 +76,7 @@ Course Listing
 
 Subscribe to Course
  On the Course Form page, users can click the Subscribe button. This action triggers a subflow that creates a new record in the Course Subscription table for that user and course.
-![image alt](https://github.com/vatsalr26/CourseHub/blob/main/Screenshots/CourseForm.png)
+![image alt](https://github.com/vatsalr26/CourseHub/blob/main/Screenshots/Subscribe!.png)
 
 View Enrolled Courses
  Clicking My Enrollments shows a filtered list of courses that the logged-in user is currently enrolled in.
