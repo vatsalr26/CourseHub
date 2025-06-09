@@ -12,7 +12,7 @@ Each feature is connected to back-end data via ServiceNow tables, and subscripti
 b. Description of Implemented Features
 Below is a breakdown of each feature and how it aligns with the assignment requirements:
 1. Home Page
-
+![image alt](https://github.com/vatsalr26/CourseHub/blob/main/Screenshots/Home%20page.png)
 Components: Header, text blocks, and three buttons
 
 Purpose: Serves as the main dashboard
