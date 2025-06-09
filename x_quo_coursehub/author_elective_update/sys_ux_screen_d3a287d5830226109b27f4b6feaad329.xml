@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen">
+    <sys_ux_screen action="DELETE">
+        <active>true</active>
+        <app_config display_value="CourseHub">19eb1ac1830aa2109b27f4b6feaad34c</app_config>
+        <description/>
+        <disable_auto_reflow>true</disable_auto_reflow>
+        <event_mappings/>
+        <macroponent display_value="copy">d7a287d5830226109b27f4b6feaad323</macroponent>
+        <macroponent_config>{
+    "bare": {
+        "type": "JSON_LITERAL",
+        "value": true
+    },
+    "headerLevel": {
+        "type": "JSON_LITERAL",
+        "value": "1"
+    },
+    "headingOnlyVisibleToScreenReaders": {
+        "type": "JSON_LITERAL",
+        "value": false
+    },
+    "interceptNotifications": {
+        "type": "JSON_LITERAL",
+        "value": false
+    },
+    "label": {
+        "type": "JSON_LITERAL",
+        "value": ""
+    },
+    "propagateNotifications": {
+        "type": "JSON_LITERAL",
+        "value": false
+    },
+    "scrollable": {
+        "type": "JSON_LITERAL",
+        "value": "y"
+    }
+}</macroponent_config>
+        <name>copy</name>
+        <order>0</order>
+        <parent_macroponent display_value="UXR Base Experience Shell">76a83a645b122010b913030a1d81c780</parent_macroponent>
+        <required_translations>[ ]</required_translations>
+        <rollback_screen/>
+        <screen_condition/>
+        <screen_type display_value="CourseMasterForm">83ee5a89830aa2109b27f4b6feaad312</screen_type>
+        <sys_class_name>sys_ux_screen</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-09 18:18:31</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d3a287d5830226109b27f4b6feaad329</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>copy</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="CourseHub" source="x_quo_coursehub">d7affc501bf0ded0afce657a234bcb67</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CourseHub">d7affc501bf0ded0afce657a234bcb67</sys_scope>
+        <sys_update_name>sys_ux_screen_d3a287d5830226109b27f4b6feaad329</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-09 18:18:31</sys_updated_on>
+    </sys_ux_screen>
+    <sys_translated_text action="DELETE" query="documentkey=d3a287d5830226109b27f4b6feaad329"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CourseHub">d7affc501bf0ded0afce657a234bcb67</application>
+        <file_path/>
+        <instance_id>4a64bd63db66f95405ef17291396190f</instance_id>
+        <instance_name>dev221409</instance_name>
+        <name>sys_ux_screen_d3a287d5830226109b27f4b6feaad329</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen"><sys_ux_screen action="INSERT_OR_UPDATE"><active>true</active><app_config display_value="CourseHub">19eb1ac1830aa2109b27f4b6feaad34c</app_config><description/><disable_auto_reflow>true</disable_auto_reflow><event_mappings/><macroponent display_value="copy">d7a287d5830226109b27f4b6feaad323</macroponent><macroponent_config>{
+    "bare": {
+        "type": "JSON_LITERAL",
+        "value": true
+    },
+    "headerLevel": {
+        "type": "JSON_LITERAL",
+        "value": "1"
+    },
+    "headingOnlyVisibleToScreenReaders": {
+        "type": "JSON_LITERAL",
+        "value": false
+    },
+    "interceptNotifications": {
+        "type": "JSON_LITERAL",
+        "value": false
+    },
+    "label": {
+        "type": "JSON_LITERAL",
+        "value": ""
+    },
+    "propagateNotifications": {
+        "type": "JSON_LITERAL",
+        "value": false
+    },
+    "scrollable": {
+        "type": "JSON_LITERAL",
+        "value": "y"
+    }
+}</macroponent_config><name>copy</name><order>0</order><parent_macroponent display_value="UXR Base Experience Shell">76a83a645b122010b913030a1d81c780</parent_macroponent><required_translations>[ ]</required_translations><rollback_screen/><screen_condition/><screen_type display_value="CourseMasterForm">83ee5a89830aa2109b27f4b6feaad312</screen_type><sys_class_name>sys_ux_screen</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-06-09 18:18:31</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>d3a287d5830226109b27f4b6feaad329</sys_id><sys_mod_count>0</sys_mod_count><sys_name>copy</sys_name><sys_overrides/><sys_package display_value="CourseHub" source="x_quo_coursehub">d7affc501bf0ded0afce657a234bcb67</sys_package><sys_policy/><sys_scope display_value="CourseHub">d7affc501bf0ded0afce657a234bcb67</sys_scope><sys_update_name>sys_ux_screen_d3a287d5830226109b27f4b6feaad329</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-06-09 18:18:31</sys_updated_on></sys_ux_screen><sys_translated_text action="delete_multiple" query="documentkey=d3a287d5830226109b27f4b6feaad329"/></record_update>]]></payload>
+        <payload_hash>-363477463</payload_hash>
+        <record_name>copy</record_name>
+        <reverted_from/>
+        <source>e8f4a48183ce62109b27f4b6feaad3ef</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-09 18:18:31</sys_created_on>
+        <sys_id>1ba287d5830226109b27f4b6feaad32d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19755ea5bd70000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-09 18:18:31</sys_updated_on>
+        <type>UX Screen</type>
+        <update_guid>dba287d5c1022610ac3c3e7d13430c2c</update_guid>
+        <update_guid_history>dba287d5c1022610ac3c3e7d13430c2c:-363477463</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-09 22:47:55</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_screen">sys_ux_screen</sys_db_object>
+        <sys_id>dcc9deedcd864ab8a2a3b29688a76890</sys_id>
+        <sys_metadata>d3a287d5830226109b27f4b6feaad329</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>copy</sys_name>
+        <sys_package display_value="CourseHub" source="x_quo_coursehub">d7affc501bf0ded0afce657a234bcb67</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="CourseHub">d7affc501bf0ded0afce657a234bcb67</sys_scope>
+        <sys_scope_delete display_value="">000122c0f5d3422480b2ea6a41b8cf10</sys_scope_delete>
+        <sys_update_name>sys_ux_screen_d3a287d5830226109b27f4b6feaad329</sys_update_name>
+        <sys_update_version display_value="sys_ux_screen_d3a287d5830226109b27f4b6feaad329">1ba287d5830226109b27f4b6feaad32d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-09 22:47:55</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

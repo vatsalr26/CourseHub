@@ -52,7 +52,7 @@
         <update_guid_history>7bbb89984634ded09d997ea03f521a51:1918952725</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Subscription">e35195901b74ded0afce657a234bcbad</sys_audit_delete>
+        <sys_audit_delete display_value="">e35195901b74ded0afce657a234bcbad</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>ab@dcm.fi</sys_created_by>
         <sys_created_on>2024-09-18 07:59:55</sys_created_on>

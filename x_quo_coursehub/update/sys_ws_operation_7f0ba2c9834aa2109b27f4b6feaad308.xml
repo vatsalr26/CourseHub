@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_operation">
+    <sys_ws_operation action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <consumes>application/json,application/xml,text/xml</consumes>
+        <consumes_customized>false</consumes_customized>
+        <default_operation_uri/>
+        <enforce_acl>cf9d01d3e73003009d6247e603f6a990</enforce_acl>
+        <http_method>POST</http_method>
+        <name>Create Record</name>
+        <operation_script><![CDATA[(function process( /*RESTAPIRequest*/ request, /*RESTAPIResponse*/ response) {
+
+    try {
+
+        // Start Asynchronously: Uncomment to run in background. Code snippet will not have access to outputs.
+        // sn_fd.FlowAPI.getRunner().subflow('global.call_subflow').inBackground().run();
+
+        // Execute Synchronously: Run in foreground. Code snippet has access to outputs.
+        gs.info(JSON.stringify(request));
+		var requestData = request.body.data;
+		
+        var inputs = {};
+        inputs['user'] = requestData.user; // String 
+		//inputs['user'] = 'a8f98bb0eb32010045e1a5115206fe3a';
+		gs.info("Harshal"+requestData.user);
+        var result = sn_fd.FlowAPI.getRunner().subflow('x_quo_coursehub.enroll_users').inForeground().withInputs(inputs).run();
+        var outputs = result.getOutputs();
+		gs.info(JSON.stringify(outputs));
+        // Current subflow has no outputs defined.		
+    } catch (ex) {
+        var message = ex.getMessage();
+        gs.error(message);
+    }
+
+})(request, response);
+]]></operation_script>
+        <operation_uri>/api/x_quo_coursehub/sub/subscribe</operation_uri>
+        <produces>application/json,application/xml,text/xml</produces>
+        <produces_customized>false</produces_customized>
+        <relative_path>/subscribe</relative_path>
+        <request_example/>
+        <requires_acl_authorization>false</requires_acl_authorization>
+        <requires_authentication>true</requires_authentication>
+        <requires_snc_internal_role>true</requires_snc_internal_role>
+        <short_description/>
+        <sys_class_name>sys_ws_operation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-08 22:02:30</sys_created_on>
+        <sys_id>7f0ba2c9834aa2109b27f4b6feaad308</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>Create Record</sys_name>
+        <sys_package display_value="CourseHub" source="x_quo_coursehub">d7affc501bf0ded0afce657a234bcb67</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CourseHub">d7affc501bf0ded0afce657a234bcb67</sys_scope>
+        <sys_update_name>sys_ws_operation_7f0ba2c9834aa2109b27f4b6feaad308</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-09 20:20:19</sys_updated_on>
+        <web_service_definition display_value="Subscribe">a618a2c5834aa2109b27f4b6feaad3e3</web_service_definition>
+        <web_service_version/>
+    </sys_ws_operation>
+</record_update>

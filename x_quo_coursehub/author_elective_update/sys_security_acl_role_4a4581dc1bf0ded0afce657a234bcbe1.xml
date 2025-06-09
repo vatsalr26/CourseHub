@@ -41,7 +41,7 @@
         <update_guid_history>8e4581dc66f0ded045d9d08e6c0185f2:1334798125</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="x_quo_coursehub_course.x_quo_coursehub.course_user">1fc115541b74ded0afce657a234bcb7f</sys_audit_delete>
+        <sys_audit_delete display_value="">1fc115541b74ded0afce657a234bcb7f</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>ab@dcm.fi</sys_created_by>
         <sys_created_on>2024-09-18 08:01:48</sys_created_on>

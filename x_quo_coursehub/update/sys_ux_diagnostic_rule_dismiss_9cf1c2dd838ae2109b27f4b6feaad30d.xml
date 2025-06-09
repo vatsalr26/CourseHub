@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_diagnostic_rule_dismiss">
+    <sys_ux_diagnostic_rule_dismiss action="INSERT_OR_UPDATE">
+        <dismiss_targets>{
+  "945ff4359f3b1210763d485bf90a1ccb": [
+    {
+      "heading_1": {
+        "queryId": "now_default",
+        "dismissTimestamp": "2025-06-09T13:35:31.334Z",
+        "dismissedBy": "6816f79cc0a8016401c5a33be04be441"
+      }
+    }
+  ],
+  "5d7f99959fef9210763d485bf90a1ca1": [
+    {
+      "heading_1": {
+        "queryId": "now_default",
+        "dismissTimestamp": "2025-06-09T13:35:31.882Z",
+        "dismissedBy": "6816f79cc0a8016401c5a33be04be441"
+      }
+    }
+  ],
+  "55b74c5270408210f877603d6fa53cf8": [
+    {
+      "button_1": {
+        "queryId": "",
+        "dismissTimestamp": "2025-06-09T13:35:33.415Z",
+        "dismissedBy": "6816f79cc0a8016401c5a33be04be441"
+      }
+    },
+    {
+      "button_2": {
+        "queryId": "",
+        "dismissTimestamp": "2025-06-09T13:35:34.329Z",
+        "dismissedBy": "6816f79cc0a8016401c5a33be04be441"
+      }
+    }
+  ]
+}</dismiss_targets>
+        <sys_class_name>sys_ux_diagnostic_rule_dismiss</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-09 13:35:42</sys_created_on>
+        <sys_id>9cf1c2dd838ae2109b27f4b6feaad30d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="CourseHub" source="x_quo_coursehub">d7affc501bf0ded0afce657a234bcb67</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CourseHub">d7affc501bf0ded0afce657a234bcb67</sys_scope>
+        <sys_update_name>sys_ux_diagnostic_rule_dismiss_9cf1c2dd838ae2109b27f4b6feaad30d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-09 13:35:42</sys_updated_on>
+        <table_name>sys_ux_macroponent</table_name>
+        <target_id>113c9e85830aa2109b27f4b6feaad394</target_id>
+    </sys_ux_diagnostic_rule_dismiss>
+</record_update>
