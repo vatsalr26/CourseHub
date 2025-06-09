@@ -60,7 +60,9 @@ Pulls data from the Course Subscription table
 
 
 c. Step-by-Step User Interaction
+
 Home Page
+
  Users land on the Home page, which has a welcome message and three buttons:
 ![image alt](https://github.com/vatsalr26/CourseHub/blob/main/Screenshots/Home%20page.png)
 
