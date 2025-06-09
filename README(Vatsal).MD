@@ -24,6 +24,7 @@ My Enrollments shows the user’s enrolled courses
 All Learners shows a full list of enrolled users
 
 2. Course Master Page
+
 Component used: List
 
 Displays all courses from the Course table
@@ -31,6 +32,7 @@ Displays all courses from the Course table
 Clicking a course opens the Course Master Form page
 
 3. Course Master Form Page
+
 Components: Form and Button
 
 Displays course details
@@ -38,6 +40,7 @@ Displays course details
 Subscribe button triggers a subflow (Enroll Users) that creates a record in the Course Subscription table
 
 4. My Enrollments Page
+
 Component: Table or List
 
 Shows courses that the currently logged-in user is subscribed to
@@ -45,6 +48,7 @@ Shows courses that the currently logged-in user is subscribed to
 Data is filtered based on user ID from the Course Subscription table
 
 5. All Learners Page
+
 Component: Table or List
 
 Displays all learners who have enrolled in any course
@@ -64,16 +68,19 @@ All Learners
 
 Course Listing
  Clicking Course Master takes the user to a list of all available courses. Clicking on a course opens a detailed view of that course.
+![image alt](https://github.com/vatsalr26/CourseHub/blob/main/Screenshots/CourseMaster.png)
 
 Subscribe to Course
  On the Course Form page, users can click the Subscribe button. This action triggers a subflow that creates a new record in the Course Subscription table for that user and course.
+![image alt](https://github.com/vatsalr26/CourseHub/blob/main/Screenshots/CourseForm.png)
 
 View Enrolled Courses
  Clicking My Enrollments shows a filtered list of courses that the logged-in user is currently enrolled in.
+![image alt](https://github.com/vatsalr26/CourseHub/blob/main/Screenshots/SubscribeProof.png)
 
 View All Learners
  Clicking All Learners displays all learners across the system who are subscribed to any course.
-
+![image alt](https://github.com/vatsalr26/CourseHub/blob/main/Screenshots/SubscribeProof.png)
 
 d. Features Not Implemented
 The following features were not implemented due to time constraints:
