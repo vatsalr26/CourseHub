@@ -1,4 +1,5 @@
 a. Introduction to the Solution
+
 This project was built using ServiceNow’s UI Builder as part of a course subscription application. The application base was provided via a Bitbucket repository, which I cloned and imported into my ServiceNow instance.
 From there, I worked within the UI Builder to create five pages. The main entry point is the Home page, which allows users to navigate to:
 A list of available courses (Course Master)
@@ -10,7 +11,9 @@ A view of all learners across the platform (All Learners)
 Each feature is connected to back-end data via ServiceNow tables, and subscriptions are managed through a subflow that creates records in a dedicated course subscription table.
 
 b. Description of Implemented Features
+
 Below is a breakdown of each feature and how it aligns with the assignment requirements:
+
 1. Home Page
 ![image alt](https://github.com/vatsalr26/CourseHub/blob/main/Screenshots/Home%20page.png)
 Components: Header, text blocks, and three buttons
