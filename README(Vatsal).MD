@@ -55,27 +55,27 @@ Users land on the Home page, which has a welcome message and three buttons:
 - My Enrollments  
 - All Learners  
 
-![Home Page](https://github.com/vatsalr26/CourseHub/blob/main/Screenshots/Home%20page.png)
+![Home Page](https://github.com/vatsalr26/CourseHub/blob/main/Screenshots/PRD01.png)
 
 ### Course Listing  
 Clicking **Course Master** takes the user to a list of all available courses. Clicking on a course opens a detailed view of that course.
 
-![Course Master](https://github.com/vatsalr26/CourseHub/blob/main/Screenshots/CourseMaster.png)
+![Course Master](https://github.com/vatsalr26/CourseHub/blob/main/Screenshots/PRD01.2.png)
 
 ### Subscribe to Course  
 On the Course Form page, users can click the **Subscribe** button. This action triggers a subflow that creates a new record in the Course Subscription table for that user and course.
 
-![Subscribe](https://github.com/vatsalr26/CourseHub/blob/main/Screenshots/Subscribe!.png)
+![Subscribe](https://github.com/vatsalr26/CourseHub/blob/main/Screenshots/PRD01.3.png)
 
 ### View Enrolled Courses  
 Clicking **My Enrollments** shows a filtered list of courses that the logged-in user is currently enrolled in.
 
-![My Enrollments](https://github.com/vatsalr26/CourseHub/blob/main/Screenshots/SubscribeProof.png)
+![My Enrollments](https://github.com/vatsalr26/CourseHub/blob/main/Screenshots/PRD02.2.png)
 
 ### View All Learners  
 Clicking **All Learners** displays all learners across the system who are subscribed to any course.
 
-![All Learners](https://github.com/vatsalr26/CourseHub/blob/main/Screenshots/SubscribeProof.png)
+![All Learners](https://github.com/vatsalr26/CourseHub/blob/main/Screenshots/AllLearners.png)
 
 ---
 
